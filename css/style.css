@@ -1,13 +1,13 @@
 /*--- Configurações Gerais ---*/
 body{
-	background:url(../img/background.jpg); 
+	background:url(../img/papel_de_parede_gamer.png); 
 	color:#868686; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
 	font-weight: 300;
 	line-height: 1.2222222222em; /* 22px a· 18px = 1.22222222222em*/
 	text-align: left; 
-	text-shadow:1px 1px 0px #fff; 
+	text-shadow:0px 0px 0px #000; 
 }
 
 .centro{
@@ -80,7 +80,7 @@ header{
 /* --- logotipo --- */
 
 	header h1 a{
-		background:url(../img/logo-criar-site-responsivo.png) no-repeat ; 
+		background:url(../img/logo_quick_pc.png) no-repeat ; 
 		display:block; 
 		float:left; 
 		height:139px;
@@ -125,7 +125,7 @@ nav{
 /* --- .CHAMADA ---*/
 
 .chamada{
-	height:290px;
+	height:170px;
 	text-align:center;
 	width:100%; /*1200px a 1200px = 1 x 100 = 100%*/
 }
@@ -151,7 +151,7 @@ nav{
 
 .desktop, .tablet, .mobile{
 	float: left;
-	height: 350px;
+	height: 450px;
 	position: relative;
 	text-align:center;
 	width: 31.57894736842105%;
@@ -180,9 +180,9 @@ nav{
 }
 
 .meio h3{
-	color: #ffffff;
-	font-size: 1.77777777778em;
-	font-weight: 300;
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
 	letter-spacing: -0.0625em;
 	margin-bottom: 30px;
 	text-shadow:none;
@@ -191,12 +191,12 @@ nav{
 .meio p {
 	background-color:#ffffff;
 	float:left;
-	height:200px;
-	padding: 1.9444444444444445%;
+	height:105px;
+	padding: 3%;
 	position: absolute;
 	max-width: 100%;
 	text-align:justify;
-	top: 210px;
+	top: 305px;
 }
 
 span.botao a{
