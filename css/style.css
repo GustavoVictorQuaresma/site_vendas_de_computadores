@@ -1,7 +1,7 @@
 /*--- Configurações Gerais ---*/
 body{
 	background:url(../img/papel_de_parede_gamer.png); 
-	color:#868686; 
+	color:#ffffff; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
 	font-weight: 300;
@@ -55,6 +55,7 @@ h3{
 p{
 	font-weight: 300;
 	letter-spacing: -0.05555555556em; /* -1px a 18px = -0.05555555556em */
+	color: #000000;
 }
 
 a, a:link, a:visited{
@@ -110,7 +111,7 @@ nav{
 			}
 			
 			nav a:link, nav a:visited{
-				color:#999;
+				color:#ffffff;
 				font-size: 1.2222222222em; /* 22px a 18px = 1.2222222222em */
 				font-weight: 300;
 				letter-spacing: -0.0909090909em; /* -2px a 22px = -0.0909090909em */
@@ -140,11 +141,19 @@ nav{
 	.chamada h3 {
 		margin: 0 auto;
 		width:75%; /* 900px a 1200px = 0.75 x 100 = 75%*/
+		color: #f9ad0f;
 	}
 
 .meio{
-	background-color:#0ac3fe;
+	background-image: linear-gradient(180deg, #2a1473, #953195);
 	height: 437px;
+	padding: 2.5%;
+	width: 95%;
+}
+
+.meio_mapa{
+	background-image: linear-gradient(180deg, #953195, #2a1473);
+	height: 450px;
 	padding: 2.5%;
 	width: 95%;
 }
